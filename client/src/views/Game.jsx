@@ -1,14 +1,12 @@
-import { useState } from "react";
 import Board from "../components/Board";
-import Gomoku from "../../../game";
 
 // redux
 import { useSelector } from "react-redux";
 
 export default function Game() {
     const isFinished = useSelector(state => state.gomoku.isFinished);
-    const turn = useSelector(state => state.gomoku.turn);
-    const board = useSelector(state => state.gomoku.board);
+    // const turn = useSelector(state => state.gomoku.turn);
+    // const board = useSelector(state => state.gomoku.board);
 
     return (<>
     <div className="min-h-screen w-screen flex justify-center items-center">
