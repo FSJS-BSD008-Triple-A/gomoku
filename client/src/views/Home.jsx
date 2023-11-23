@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import { reset } from "../slices/gomokuSlice";
-import { useDispatch, useSelector } from "react-redux";
+import { useDispatch } from "react-redux";
 import { useEffect } from "react";
 
 export default function Home() {
